@@ -2,14 +2,16 @@
   <head>
     <title>Todo List Application</title>
     <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   </head>
   <body>
+    <div id = "bod" align = "center">
     <h1>Workshop Todo List</h1>
     <ul>
       <li>
         <input type="checkbox">
         <a href="show.html">Make the curriculum</a>
-        <span>4 pomodoros</span>
+        <span class = "pomodoro-estimate">4 pomodoros</span>
       </li>
       <li>
         <input type="checkbox">
@@ -42,9 +44,9 @@
         <span class = "pomodoro-estimate">0 Pomodoros</span>
       </li>
     </ul>
-
-    <input type="text" placeholder="Add a new todo...">
-    <input type="number" placeholder="Pomodoro estimate...">
-    <input type="submit" value="Add todo">
+    <input class = "inputs" type="text" placeholder="Add a new todo...">
+    <input class = "inputs" type="number" placeholder="Pomodoro estimate...">
+    <input id="add-new-todo-button" type="submit" value="Add todo">
+    </div>
   </body>
 </html>
